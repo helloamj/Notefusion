@@ -1,16 +1,55 @@
-# notefusion
 
-A new Flutter project.
 
-## Getting Started
+# Notefusion📝
 
-This project is a starting point for a Flutter application.
+This is a notes app built using Flutter, Node.js, and MongoDB. It allows users to add, delete, update, and search notes. The app features a clean and modern user interface that makes it easy to manage your notes on the go.
 
-A few resources to get you started if this is your first Flutter project:
+## Features 🔍
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add notes: Users can create new notes by entering a title and description.
+- Delete notes: Users can delete notes they no longer need.
+- Update notes: Users can edit the title and description of existing notes.
+- Search notes: Users can search for notes using the integrated search bar.
+- User authentication: Users must sign in to access the app, ensuring their notes are private and secure.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used 💻
+
+- Flutter: A mobile app development framework used to build the client-side of the app.
+- Node.js: A JavaScript runtime used to build the server-side of the app.
+- MongoDB: A NoSQL database used to store the app's data.
+
+## Installation 🚀
+
+To run the app, you'll need to have Flutter and Node.js installed on your machine. You'll also need to have a MongoDB database set up and running. Once you have these dependencies installed, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/notes-app.git`
+2. Install the client-side dependencies: `cd notes-app/client && flutter pub get`
+3. Get the server.
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green.svg)](https://github.com/helloamj/Notes-Sever )
+4. Install the server-side dependencies: `cd ../server && npm install`
+5. Start the server: `npm start`
+6. Start the client: `flutter run`
+
+
+Alternatively, you can download and install the APK on your Android device by clicking the big button below:
+
+[![Install Notfusion](https://img.shields.io/badge/Install-Notfusion%20App-green.svg)](https://drive.google.com/file/d/1Ia0AsRvJCe0nCatOpmkL-objyQ4M483J/view?usp=sharing)
+
+
+
+
+## Support and Contact 📧
+
+If you have any questions or issues with the app, please don't hesitate to contact us at jainkunal129@gmail.com. We're always here to help!
+
+## Contributing 🤝
+
+Contributions are welcome! If you'd like to contribute to the project, please fork the repository and create a pull request with your changes.
+
+## License 📜
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## About Notes App 🌟
+
+At Notes App, we're dedicated to helping people stay organized and productive. Our app is designed to make it easy for anyone to manage their notes, no matter where they are or what they're doing. With features like user authentication and an integrated search bar, our app is perfect for students, professionals, and anyone who needs to keep track of important information. Try it today and see how it can help you stay on top of your notes and tasks!
