@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240405501169",
+    "project_id": "authentication-7f3da",
+    "storage_bucket": "authentication-7f3da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240405501169:android:0fbee6e61f4e26b3d70550",
+        "android_client_info": {
+          "package_name": "com.example.notefusion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240405501169-ret499c77r2cf4rcdd1p02ep359utsaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD43TM1Fmtfh6k33WZK2UooHfa1ZiUY9Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240405501169-ret499c77r2cf4rcdd1p02ep359utsaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
