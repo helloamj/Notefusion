@@ -35,7 +35,7 @@ Alternatively, you can download and install the APK on your Android device by cl
 
 [![Install Notfusion](https://img.shields.io/badge/Install-Notfusion%20App-green.svg)](https://drive.google.com/file/d/1Ia0AsRvJCe0nCatOpmkL-objyQ4M483J/view?usp=sharing)
 
-
+##Screenshots 📱
 
 
 ## Support and Contact 📧
