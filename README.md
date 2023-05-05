@@ -34,7 +34,7 @@ To run the app, you'll need to have Flutter and Node.js installed on your machin
 
 Alternatively, you can download and install the APK on your Android device by clicking the big button below:
 
-[![Install Notfusion](https://img.shields.io/badge/Install-Notfusion%20App-green.svg)](https://drive.google.com/file/d/1Ia0AsRvJCe0nCatOpmkL-objyQ4M483J/view?usp=sharing)
+[![Install Notefusion](https://img.shields.io/badge/Install-Notfusion%20App-green.svg)](https://drive.google.com/file/d/1Ia0AsRvJCe0nCatOpmkL-objyQ4M483J/view?usp=sharing)
 
 ## Screenshots 📱
 
