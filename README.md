@@ -39,12 +39,12 @@ Alternatively, you can download and install the APK on your Android device by cl
 ## Screenshots 📱
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110400753/236378627-ee91f075-26ad-4bcf-9094-1b697d74e957.png" width="120" hspace="20" />
-  <img src="https://user-images.githubusercontent.com/110400753/236378639-882c1be6-abda-420a-9d21-7835de6992ae.png" width="120" hspace="20"/> 
-  <img src="https://user-images.githubusercontent.com/110400753/236378660-36b7540d-f0ed-4ecf-9370-66fa57fc0806.png" width="120" hspace="20"/>
-  <img src="https://user-images.githubusercontent.com/110400753/236378677-4bf590a0-16ef-414c-9222-f8079bb4be22.png" width="120" hspace="20"/>
-  <img src="https://user-images.githubusercontent.com/110400753/236378660-36b7540d-f0ed-4ecf-9370-66fa57fc0806.png" width="120" hspace="20"/>
-  <img src="https://user-images.githubusercontent.com/110400753/236378696-e7b0fc0c-9504-4cdf-8705-78b238ef66ec.png" width="120" hspace="20"/>
+  <img src="https://user-images.githubusercontent.com/110400753/236378627-ee91f075-26ad-4bcf-9094-1b697d74e957.png" width="120"  />
+  <img src="https://user-images.githubusercontent.com/110400753/236378639-882c1be6-abda-420a-9d21-7835de6992ae.png" width="120" /> 
+  <img src="https://user-images.githubusercontent.com/110400753/236378660-36b7540d-f0ed-4ecf-9370-66fa57fc0806.png" width="120" />
+  <img src="https://user-images.githubusercontent.com/110400753/236378677-4bf590a0-16ef-414c-9222-f8079bb4be22.png" width="120" />
+  <img src="https://user-images.githubusercontent.com/110400753/236378660-36b7540d-f0ed-4ecf-9370-66fa57fc0806.png" width="120" />
+  <img src="https://user-images.githubusercontent.com/110400753/236378696-e7b0fc0c-9504-4cdf-8705-78b238ef66ec.png" width="120" />
 </p>
 
 
