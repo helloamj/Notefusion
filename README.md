@@ -2,7 +2,7 @@
 
 # Notefusion📝
 
-This is a notes app built using Flutter, Node.js, and MongoDB. It allows users to add, delete, update, and search notes. The app features a clean and modern user interface that makes it easy to manage your notes on the go.
+This is a notes app built using Flutter, FirebaseAuth, Node.js, and MongoDB. It allows users to add, delete, update, and search notes. The app features a clean and modern user interface that makes it easy to manage your notes on the go.
 
 ## Features 🔍
 
