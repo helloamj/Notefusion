@@ -17,6 +17,7 @@ This is a notes app built using Flutter, Node.js, and MongoDB. It allows users t
 - Flutter: A mobile app development framework used to build the client-side of the app.
 - Node.js: A JavaScript runtime used to build the server-side of the app.
 - MongoDB: A NoSQL database used to store the app's data.
+- FirebaseAuth: A simplifies user sign-in and authentication for your app by providing a secure and easy-to-use service with support for various sign-in methods.
 
 ## Installation 🚀
 
