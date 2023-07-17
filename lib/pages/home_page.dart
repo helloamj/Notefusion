@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/note.dart';
+import 'authentication/sign_in_page.dart';
 import 'note_page.dart';
 import '../providers/notes_provider.dart';
 import 'package:provider/provider.dart';
@@ -20,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     var w = MediaQuery.of(context).size.width;
     var h = MediaQuery.of(context).size.height;
-    print(FirebaseAuth.instance.currentUser!.email);
+    // print(FirebaseAuth.instance.currentUser!.email);
     NotesProvider notesProvider = Provider.of<NotesProvider>(context);
     List<Color> clr = [
       Color(0xffFFAB91),
@@ -59,6 +60,36 @@ class _HomePageState extends State<HomePage> {
           toolbarHeight: 80,
           elevation: 0,
           backgroundColor: const Color(0xff252525),
+          actions: [
+            IconButton(
+              onPressed: () {
+                QuickAlert.show(
+                  backgroundColor: const Color(0xff252525),
+                  textColor: Colors.white,
+                  titleColor: Colors.white,
+                  context: context,
+                  type: QuickAlertType.warning,
+                  text: 'Do you want to logout?',
+                  confirmBtnText: 'Yes',
+                  onConfirmBtnTap: () {
+                    Navigator.popUntil(context, (route) => route.isFirst);
+                    Navigator.pushReplacement(context,
+                        CupertinoPageRoute(builder: (context) {
+                      FirebaseAuth.instance.currentUser!.delete();
+                      FirebaseAuth.instance.signOut();
+                      return SignInPage();
+                    }));
+                  },
+                  cancelBtnText: 'No',
+                  confirmBtnColor: const Color(0xff3B3B3B),
+                );
+              },
+              icon: Icon(
+                Icons.logout,
+                color: Colors.white,
+              ),
+            ),
+          ],
         ),
         body: (notesProvider.isLoading == false)
             ? SafeArea(
